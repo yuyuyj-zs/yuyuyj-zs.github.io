@@ -1,11 +1,11 @@
-# 许宇杰｜嵌入式系统与智能硬件作品集
+# 许宇杰｜嵌入式软件开发作品集
 
 面向嵌入式软件开发、机器人与智能硬件岗位的个人工程作品集。页面以真实设备的控制、通信、视觉部署与整机联调过程为主线，用于项目讲解和秋招投递。
 
 ## 在线访问
 
-- 作品集网站：[yuyuyj-zs.github.io/-HTML](https://yuyuyj-zs.github.io/-HTML/)
-- PDF 简历：[在线查看](https://yuyuyj-zs.github.io/-HTML/assets/resume/%E8%AE%B8%E5%AE%87%E6%9D%B0_%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91_2027%E5%B1%8A.pdf)
+- 作品集部署：使用相对资源路径，迁移至 GitHub Pages 用户主页仓库后可通过根域名访问。
+- PDF 简历：`assets/resume/许宇杰_嵌入式软件开发_2027届.pdf`。
 
 ## 项目概览
 
@@ -69,4 +69,3 @@ python -m http.server 4173
 
 - 邮箱：yuyujie04@qq.com
 - 电话：138-5984-4355
-- 微信：xyj13859844355
