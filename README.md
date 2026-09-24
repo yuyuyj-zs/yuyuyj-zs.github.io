@@ -4,7 +4,7 @@
 
 ## 在线访问
 
-- 作品集部署：使用相对资源路径，迁移至 GitHub Pages 用户主页仓库后可通过根域名访问。
+- 作品集网站：[yuyuyj-zs.github.io](https://yuyuyj-zs.github.io/)
 - PDF 简历：`assets/resume/许宇杰_嵌入式软件开发_2027届.pdf`。
 
 ## 项目概览

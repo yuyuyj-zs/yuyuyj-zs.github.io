@@ -6,12 +6,13 @@
   <meta name="description" content="许宇杰的嵌入式软件开发技术作品集，展示 STM32、FreeRTOS、嵌入式 Linux、RV1106、RKNN、实时图传及智能硬件项目。">
   <meta name="theme-color" content="#0b0f14">
   <link rel="icon" href="assets/s1-black-car-front.jpg" type="image/jpeg">
-  <link rel="canonical" href="./">
+  <link rel="canonical" href="https://yuyuyj-zs.github.io/">
   <link rel="prefetch" href="assets/resume/许宇杰_嵌入式软件开发_2027届.pdf" as="document">
   <meta property="og:title" content="许宇杰｜嵌入式软件开发作品集">
   <meta property="og:description" content="2027 届电子信息工程本科生，展示 STM32、FreeRTOS、RV1106、RKNN、实时图传及智能硬件工程实践。">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/s1-black-car-front.jpg">
+  <meta property="og:url" content="https://yuyuyj-zs.github.io/">
+  <meta property="og:image" content="https://yuyuyj-zs.github.io/assets/s1-black-car-front.jpg">
   <title>许宇杰｜嵌入式软件开发 / 嵌入式 Linux / 智能硬件</title>
   <style>
     :root {
@@ -800,7 +801,7 @@
               <div class="project-facts" aria-label="智能小车关键参数">
                 <div class="project-fact"><small>通信</small><strong>57600 bps</strong><span>Modbus RTU</span></div><div class="project-fact"><small>AI 推理</small><strong>640 × 640 INT8</strong><span>RKNN · ≈57 ms</span></div><div class="project-fact"><small>实时图传</small><strong>1280 × 720 @ 30 fps</strong><span>H.264 / RTSP</span></div><div class="project-fact"><small>显示延迟</small><strong>≈240 ms</strong><span>端到端实测</span></div>
               </div>
-              <div class="project-tags tags"><span class="tag">STM32F407</span><span class="tag">FreeRTOS</span><span class="tag">RV1106</span><span class="tag">SC132GS</span><span class="tag">YOLOv5 → RKNN</span><span class="tag">Modbus RTU</span><span class="tag">MAVLink</span><span class="tag">H.264 / RTSP</span></div>
+              <div class="project-tags tags" aria-label="核心技术栈"><span class="tag">STM32F407</span><span class="tag">FreeRTOS</span><span class="tag">RV1106</span><span class="tag">RKNN</span><span class="tag">Modbus RTU</span><span class="tag">MAVLink</span><span class="tag">H.264 / RTSP</span></div>
               <figure class="architecture-image" aria-labelledby="s1-architecture-caption">
                 <img src="assets/s1-end-to-end-architecture.png?v=20260911" alt="途 S1 智能小车端到端系统架构图" width="3600" height="1760" loading="lazy">
                 <figcaption id="s1-architecture-caption"><strong>端到端系统架构</strong> · 展示遥控控制、STM32F407 / FreeRTOS、RV1106 视觉推理、目标结果回传及 H.264 / RTSP 视频链路。</figcaption>
@@ -815,7 +816,7 @@
               </div>
 
               <div class="project-columns">
-                <section class="project-block"><h4>本人主要负责</h4><ul class="clean-list"><li>整体需求拆解、控制 / 视觉 / 图传方案集成与端到端联调</li><li>使用示波器、逻辑分析仪确认 57600 bps、Modbus RTU 及设备地址</li><li>完成 STM32F407 + FreeRTOS 底盘控制、状态读取与 MAVLink 遥测接入</li><li>完成 RV1106 环境配置、模型部署，并负责 Android 端遥控、视频显示及车辆状态界面的需求设计、APK 集成部署与实机联调</li></ul></section>
+                <section class="project-block"><h4>本人主要负责</h4><ul class="clean-list"><li>整体需求拆解、控制 / 视觉 / 图传方案集成与端到端联调</li><li>使用示波器、逻辑分析仪确认 57600 bps、Modbus RTU 及设备地址</li><li>完成 STM32F407 + FreeRTOS 底盘控制、状态读取与 MAVLink 遥测接入</li><li>完成 RV1106 环境配置、YOLOv5 → RKNN 模型部署及视觉链路联调</li><li>完成 Android 端遥控、视频显示及车辆状态界面的需求设计、APK 集成部署与实机联调</li></ul></section>
                 <section class="project-block"><h4>关键实现 / 工程结果</h4><ul class="clean-list"><li>完成 YOLOv5 → RKNN 640×640 INT8 模型部署，单帧推理约 57 ms</li><li>通过 RKIPC RGN/OSD 将检测框叠加至 RTSP 视频</li><li>实现视觉跟随、目标接近及手动 / 自动模式切换</li><li>实现 720p30 H.264/RTSP 图传，实测显示端到端延迟约 240 ms</li><li>定位并解决电机压降导致图传重启、DMA 未启用导致状态回传异常</li></ul></section>
               </div>
 
